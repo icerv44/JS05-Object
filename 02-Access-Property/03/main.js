@@ -14,5 +14,7 @@ const product1 = {
 console.log(product1.distributor.address.province);
 
 const product2 = {};
-
-console.log(product2?.distributor?.address.province);
+product2.distributor = {};
+product2.distributor.address = {};
+product2.distributor.address.province = "Bangkok";
+console.log(product2.distributor.address.province);

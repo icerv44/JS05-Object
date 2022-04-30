@@ -6,8 +6,8 @@ let menu = {
 
 let multiplyNumeric = (obj, num) => {
   for (let key in obj) {
-    console.log("key " + key);
-    console.log("Obj " + obj[key]);
+    // console.log("key " + key);
+    //console.log("Obj " + obj[key]);
     if (isNaN(obj[key])) {
     } else {
       obj[key] = obj[key] * num;
